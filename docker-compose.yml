@@ -10,7 +10,7 @@ services:
       DB_NAME: tiebacloud
       CSRF: "true"
     ports:
-      - "80:8080"
+      - "9876:8080"
     links:
       - db
     depends_on:
